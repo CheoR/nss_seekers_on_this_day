@@ -13,7 +13,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-	"lint": "./node_modules/.bin/eslint --no-error-on-unmatched-pattern './src/**/*.[j|t]s*'"
+    "lint": "eslint --no-error-on-unmatched-pattern './src/**/*.[j|t]s*'"
   },
   "eslintConfig": {
     "extends": [
@@ -55,5 +55,13 @@
   "main": "index.js",
   "keywords": [],
   "author": "CheoR",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CheoR/nss_seekers_on_this_day.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CheoR/nss_seekers_on_this_day/issues"
+  },
+  "homepage": "https://github.com/CheoR/nss_seekers_on_this_day#readme"
 }
